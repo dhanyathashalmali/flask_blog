@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+
+# Flask instance folder
+instance/
+
+# SQLite database file (if used)
+*.sqlite3
+
+# Pytest
+.cache
+.pytest_cache/
+
+# Others
+.DS_Store  # For MacOS
+*.swp      # For Vim
+*.swo      # For Vim
